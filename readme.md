@@ -6,7 +6,7 @@ icons from here: https://dribbble.com/shots/2369255-Freebie-File-Type-Icon-Set
 import { Mp3 } from 'react-extensions-svg';
 
 const myComponenet = (props) => {
-    return (<Mp3 color="#FFFFFF" width="48" height="48"/>)
+    return (<Mp3 color="#FFFFFF" size="48" />)
 } 
 ```
 
