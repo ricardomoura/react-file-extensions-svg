@@ -1,7 +1,7 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _react = require('react');
@@ -15,29 +15,37 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Ae = function Ae(props) {
-  var size = props.size,
-      color = props.color;
+    var size = props.size,
+        color = props.color;
 
-  return _react2.default.createElement(
-    'svg',
-    { width: size, height: size, viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' },
-    _react2.default.createElement(
-      'g',
-      { fill: color },
-      _react2.default.createElement('path', { d: 'M0 2l2-2v48l-2-2h48l-2 2V0l2 2H0zm0-2h48v48H0V0z' }),
-      _react2.default.createElement('path', { d: 'M18.97 28.49l1.83 5.73h3.96L18.19 14h-4.71L7 34.22h3.81l1.74-5.73h6.42zm-5.82-2.79l1.56-4.98c.36-1.2.66-2.61.96-3.78h.06c.3 1.17.63 2.55 1.02 3.78l1.59 4.98h-5.19zm26.28 2.25c.06-.33.12-.87.12-1.56 0-3.21-1.56-7.11-6.3-7.11-4.68 0-7.14 3.81-7.14 7.86 0 4.47 2.79 7.38 7.53 7.38 2.1 0 3.84-.39 5.1-.9l-.54-2.55c-1.11.42-2.34.66-4.05.66-2.34 0-4.41-1.14-4.5-3.78h9.78zm-9.78-2.58c.15-1.5 1.11-3.57 3.39-3.57 2.46 0 3.06 2.22 3.03 3.57h-6.42z' })
-    )
-  );
+    return _react2.default.createElement(
+        'svg',
+        { width: size, height: size, viewBox: '0 0 48 48', version: '1.1', xmlns: 'http://www.w3.org/2000/svg' },
+        _react2.default.createElement(
+            'g',
+            { id: 'Page-1', stroke: 'none', 'stroke-width': '1', fill: 'none', fillRule: 'evenodd' },
+            _react2.default.createElement(
+                'g',
+                { id: 'file-type-icon-set', transform: 'translate(-64.000000, -687.000000)', fill: color },
+                _react2.default.createElement(
+                    'g',
+                    { id: 'Ae', transform: 'translate(64.000000, 687.000000)' },
+                    _react2.default.createElement('path', { d: 'M0,2 L0,2 L2,0 L2,48 L0,46 L48,46 L46,48 L46,0 L48,2 L0,2 Z M0,0 L48,0 L48,48 L0,48 L0,0 L0,0 Z', id: 'Shape', fillRule: 'nonzero' }),
+                    _react2.default.createElement('path', { d: 'M18.97,28.49 L20.8,34.22 L24.76,34.22 L18.19,14 L13.48,14 L7,34.22 L10.81,34.22 L12.55,28.49 L18.97,28.49 Z M13.15,25.7 L14.71,20.72 C15.07,19.52 15.37,18.11 15.67,16.94 L15.73,16.94 C16.03,18.11 16.36,19.49 16.75,20.72 L18.34,25.7 L13.15,25.7 Z M39.43,27.95 C39.49,27.62 39.55,27.08 39.55,26.39 C39.55,23.18 37.99,19.28 33.25,19.28 C28.57,19.28 26.11,23.09 26.11,27.14 C26.11,31.61 28.9,34.52 33.64,34.52 C35.74,34.52 37.48,34.13 38.74,33.62 L38.2,31.07 C37.09,31.49 35.86,31.73 34.15,31.73 C31.81,31.73 29.74,30.59 29.65,27.95 L39.43,27.95 Z M29.65,25.37 C29.8,23.87 30.76,21.8 33.04,21.8 C35.5,21.8 36.1,24.02 36.07,25.37 L29.65,25.37 Z' })
+                )
+            )
+        )
+    );
 };
 
 Ae.propTypes = {
-  color: _propTypes2.default.string,
-  size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
+    color: _propTypes2.default.string,
+    size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 };
 
 Ae.defaultProps = {
-  color: '#FFFFFF',
-  size: '24'
+    color: '#FFFFFF',
+    size: '24'
 };
 
 exports.default = Ae;

@@ -5,7 +5,21 @@ import PropTypes from 'prop-types';
 const Ic = props => {
 	const { size, color } = props;
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill={color} ><path d="M0 2l2-2v48l-2-2h48l-2 2V0l2 2H0zm0-2h48v48H0V0z" /><path d="M15 14v20.22h3.69V14H15zm18 17.04c-.72.3-1.62.57-2.91.57-2.52 0-4.47-1.71-4.47-4.71-.03-2.67 1.65-4.74 4.47-4.74 1.32 0 2.19.3 2.79.57l.66-2.76c-.84-.39-2.22-.69-3.57-.69-5.13 0-8.13 3.42-8.13 7.8 0 4.53 2.97 7.44 7.53 7.44 1.83 0 3.36-.39 4.14-.75L33 31.04z"/></g></svg>
+    
+<svg width={size} height={size} viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    
+    
+    
+    
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
+        <g id="file-type-icon-set" transform="translate(-64.000000, -765.000000)" fill={color}>
+            <g id="Ic" transform="translate(64.000000, 765.000000)">
+                <path d="M0,2 L0,2 L2,0 L2,48 L0,46 L48,46 L46,48 L46,0 L48,2 L0,2 Z M0,0 L48,0 L48,48 L0,48 L0,0 L0,0 Z" id="Shape" fillRule="nonzero"></path>
+                <path d="M15,14 L15,34.22 L18.69,34.22 L18.69,14 L15,14 Z M33,31.04 C32.28,31.34 31.38,31.61 30.09,31.61 C27.57,31.61 25.62,29.9 25.62,26.9 C25.59,24.23 27.27,22.16 30.09,22.16 C31.41,22.16 32.28,22.46 32.88,22.73 L33.54,19.97 C32.7,19.58 31.32,19.28 29.97,19.28 C24.84,19.28 21.84,22.7 21.84,27.08 C21.84,31.61 24.81,34.52 29.37,34.52 C31.2,34.52 32.73,34.13 33.51,33.77 L33,31.04 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
   );
 };
 

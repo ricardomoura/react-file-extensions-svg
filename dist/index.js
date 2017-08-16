@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Zip = exports.Xlsx = exports.Xls = exports.Wmv = exports.Wav = exports.Txt = exports.Tiff = exports.Sketch = exports.Rtf = exports.Rmvb = exports.Pptx = exports.Ppt = exports.Png = exports.Php = exports.Pdf = exports.Mp4 = exports.Mp3 = exports.Mov = exports.Mkv = exports.Js = exports.Jpg = exports.Html = exports.Gif = exports.Flv = exports.Flac = exports.Docx = exports.Doc = exports.Css = exports.Bmp = exports.Avi = exports.Ape = exports.Zip7z = exports.Sg = exports.Ps = exports.Pr = exports.Pl = exports.Mu = exports.Lr = exports.Id = exports.Ic = exports.Fw = exports.Fl = exports.Fb = exports.En = exports.Dw = exports.Cc = exports.Au = exports.Ai = exports.Ae = undefined;
+exports.Zip7z = exports.Zip = exports.Xlsx = exports.Xls = exports.Wmv = exports.Wav = exports.Txt = exports.Tiff = exports.Sketch = exports.Rtf = exports.Rmvb = exports.Pptx = exports.Ppt = exports.Png = exports.Php = exports.Pdf = exports.Mp4 = exports.Mp3 = exports.Mov = exports.Mkv = exports.Js = exports.Jpg = exports.Html = exports.Gif = exports.Flv = exports.Flac = exports.Docx = exports.Doc = exports.Css = exports.Bmp = exports.Avi = exports.Ape = exports.Sg = exports.Ps = exports.Pr = exports.Pl = exports.Mu = exports.Lr = exports.Id = exports.Ic = exports.Fw = exports.Fl = exports.Fb = exports.En = exports.Dw = exports.Cc = exports.Au = exports.Ai = exports.Ae = undefined;
 
 var _Ae2 = require('./components/Ae');
 
@@ -72,10 +72,6 @@ var _Ps3 = _interopRequireDefault(_Ps2);
 var _Sg2 = require('./components/Sg');
 
 var _Sg3 = _interopRequireDefault(_Sg2);
-
-var _Zip7z2 = require('./components/Zip7z');
-
-var _Zip7z3 = _interopRequireDefault(_Zip7z2);
 
 var _Ape2 = require('./components/Ape');
 
@@ -201,6 +197,10 @@ var _Zip2 = require('./components/Zip');
 
 var _Zip3 = _interopRequireDefault(_Zip2);
 
+var _Zip7z2 = require('./components/Zip7z');
+
+var _Zip7z3 = _interopRequireDefault(_Zip7z2);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.Ae = _Ae3.default;
@@ -220,7 +220,6 @@ exports.Pl = _Pl3.default;
 exports.Pr = _Pr3.default;
 exports.Ps = _Ps3.default;
 exports.Sg = _Sg3.default;
-exports.Zip7z = _Zip7z3.default;
 exports.Ape = _Ape3.default;
 exports.Avi = _Avi3.default;
 exports.Bmp = _Bmp3.default;
@@ -252,3 +251,4 @@ exports.Wmv = _Wmv3.default;
 exports.Xls = _Xls3.default;
 exports.Xlsx = _Xlsx3.default;
 exports.Zip = _Zip3.default;
+exports.Zip7z = _Zip7z3.default;

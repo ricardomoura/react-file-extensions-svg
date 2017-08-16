@@ -1,7 +1,7 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _react = require('react');
@@ -15,29 +15,37 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Sketch = function Sketch(props) {
-  var size = props.size,
-      color = props.color;
+    var size = props.size,
+        color = props.color;
 
-  return _react2.default.createElement(
-    'svg',
-    { width: size, height: size, viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' },
-    _react2.default.createElement(
-      'g',
-      { fill: color },
-      _react2.default.createElement('path', { d: 'M0 2l2-2v48l-2-2h48l-2 2V0l2 2H0zm0-2h48v48H0V0z' }),
-      _react2.default.createElement('path', { d: 'M34.745 13.244l4.25 4.846-14.997 20.017L9 18.09l4.25-4.846L18.49 11h11.015l5.24 2.244zm2.447 5.048l-2.677-3.63-4.433 2.107 3.15 4.576 3.96-3.053zm-5.875 3.958l-3-5.31h-8.64l-3 5.31h14.64zm-3.012-10.258h-8.66l-4.006 1.74 4.067 1.91h8.583l4.067-1.91-4.05-1.74zm-14.875 2.67l-2.676 3.63 3.959 3.053 3.15-4.576-4.433-2.107zm-1.066 6.632l8.599 11.834-6.062-9.85-2.537-1.984zm4.666 2.574l6.968 12.378 6.967-12.378H17.03zm9.952 9.26l8.599-11.834-2.537 1.984-6.062 9.85z' })
-    )
-  );
+    return _react2.default.createElement(
+        'svg',
+        { width: size, height: size, viewBox: '0 0 48 48', version: '1.1', xmlns: 'http://www.w3.org/2000/svg' },
+        _react2.default.createElement(
+            'g',
+            { id: 'Page-1', stroke: 'none', 'stroke-width': '1', fill: 'none', fillRule: 'evenodd' },
+            _react2.default.createElement(
+                'g',
+                { id: 'file-type-icon-set', transform: 'translate(-688.000000, -765.000000)', fill: color },
+                _react2.default.createElement(
+                    'g',
+                    { id: 'sketch', transform: 'translate(688.000000, 765.000000)' },
+                    _react2.default.createElement('path', { d: 'M0,2 L0,2 L2,0 L2,48 L0,46 L48,46 L46,48 L46,0 L48,2 L0,2 Z M0,0 L48,0 L48,48 L0,48 L0,0 L0,0 Z', id: 'Shape', fillRule: 'nonzero' }),
+                    _react2.default.createElement('path', { d: 'M34.744703,13.2436634 L38.9947525,18.089901 L23.9981683,38.1070792 L9,18.089901 L13.2500495,13.2436634 L18.490198,11 L29.5045545,11 L34.744703,13.2436634 Z M37.1915842,18.2924752 L34.514802,14.6616832 L30.0818317,16.7687624 L33.2326238,21.344802 L37.1915842,18.2924752 Z M31.3170792,22.250396 L28.3174257,16.940297 L19.6773762,16.940297 L16.6776733,22.250396 L31.3170792,22.250396 Z M28.3053353,11.992335 L19.6443741,11.9911626 L15.6389109,13.7323267 L19.7059901,15.6426238 L28.2887624,15.6426238 L32.3558416,13.7323267 L28.3053353,11.992335 Z M13.4304455,14.6616832 L10.7537129,18.2924752 L14.7126238,21.344802 L17.8634158,16.7687624 L13.4304455,14.6616832 Z M12.3643564,21.2938614 L20.9630198,33.1278713 L14.9010396,23.2776238 L12.3643564,21.2938614 Z M17.029901,23.8682673 L23.9981683,36.2459901 L30.964901,23.8682673 L17.029901,23.8682673 Z M26.9822277,33.1278713 L35.5808911,21.2938614 L33.0442079,23.2776238 L26.9822277,33.1278713 Z' })
+                )
+            )
+        )
+    );
 };
 
 Sketch.propTypes = {
-  color: _propTypes2.default.string,
-  size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
+    color: _propTypes2.default.string,
+    size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 };
 
 Sketch.defaultProps = {
-  color: '#FFFFFF',
-  size: '24'
+    color: '#FFFFFF',
+    size: '24'
 };
 
 exports.default = Sketch;
