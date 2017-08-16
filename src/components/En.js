@@ -11,7 +11,7 @@ const En = props => {
     
     
     
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="file-type-icon-set" transform="translate(-454.000000, -687.000000)" fill={color}>
             <g id="En" transform="translate(454.000000, 687.000000)">
                 <path d="M0,2 L0,2 L2,0 L2,48 L0,46 L48,46 L46,48 L46,0 L48,2 L0,2 Z M0,0 L48,0 L48,48 L0,48 L0,0 L0,0 Z" id="Shape" fillRule="nonzero"></path>

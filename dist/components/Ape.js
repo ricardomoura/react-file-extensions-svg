@@ -23,7 +23,7 @@ var Ape = function Ape(props) {
         { width: size, height: size, viewBox: '0 0 48 48', version: '1.1', xmlns: 'http://www.w3.org/2000/svg' },
         _react2.default.createElement(
             'g',
-            { id: 'Page-1', stroke: 'none', 'stroke-width': '1', fill: 'none', fillRule: 'evenodd' },
+            { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
             _react2.default.createElement(
                 'g',
                 { id: 'file-type-icon-set', transform: 'translate(-610.000000, -951.000000)', fill: color },

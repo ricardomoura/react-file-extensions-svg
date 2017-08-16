@@ -11,7 +11,7 @@ const Flv = props => {
     
     
     
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="file-type-icon-set" transform="translate(-454.000000, -1029.000000)" fill={color}>
             <g id=".flv" transform="translate(453.000000, 1029.000000)">
                 <path d="M1,2 L1,2 L3,0 L3,48 L1,46 L49,46 L47,48 L47,0 L49,2 L1,2 Z M1,0 L49,0 L49,48 L1,48 L1,0 L1,0 Z" id="Shape" fillRule="nonzero"></path>
